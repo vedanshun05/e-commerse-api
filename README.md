@@ -64,6 +64,3 @@ The API will be available at `http://localhost:8080`.
 
 ## 🧪 Testing
 See `how_to_test.md` for detailed instructions and `curl` scripts.
-
-## 📊 ER Diagram
-![ER Diagram](ER_Diagram.mermaid)
