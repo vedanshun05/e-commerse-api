@@ -1,6 +1,5 @@
 target/
 *.sh
-README.md
 .idea/
 *.iml
 .DS_Store
