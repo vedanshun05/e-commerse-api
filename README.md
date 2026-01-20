@@ -42,25 +42,3 @@ src/main/java/com/example/ecommerce
 ├── dto             # Data Transfer Objects
 └── webhook         # Webhook Handler
 ```
-
-## 🛠 Setup & Run
-
-### 1. Database
-Ensure MongoDB is running locally on port `27017`.
-
-### 2. Mock Payment Service
-Run the python script to simulate external payment gateway:
-```bash
-python3 mock_payment_service.py
-```
-
-### 3. Application
-Build and run the Spring Boot app:
-```bash
-./mvnw clean package -DskipTests
-java -jar target/ecommerce-0.0.1-SNAPSHOT.jar
-```
-The API will be available at `http://localhost:8080`.
-
-## 🧪 Testing
-See `how_to_test.md` for detailed instructions and `curl` scripts.
