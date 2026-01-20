@@ -1,0 +1,10 @@
+target/
+*.sh
+README.md
+.idea/
+*.iml
+.DS_Store
+*.log
+last_order_output.txt
+ER_Diagram.mermaid
+data/
